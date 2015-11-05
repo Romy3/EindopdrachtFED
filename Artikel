@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <title>Artikelpagina</title>
         <link rel="stylesheet" href="style.eind.css" type="text/css" />
-        <meta name="viewport" content="width=device-width, initial-scale=1"> <!--zorgt ervoor dat de layout-breedte matcht met de device breedte, zoomlevel zodat je zeker weet dat de layout wordt getoond zoals je wilt--!u
+        <meta name="viewport" content="width=device-width, initial-scale=1"> <!--zorgt ervoor dat de layout-breedte matcht met de device breedte, zoomlevel zodat je zeker weet dat de layout wordt getoond zoals je wilt--!>
     </head>
     <body>
 
@@ -14,7 +14,7 @@
             <p>Communication and Multimedia Design is een ontwerpopleiding voor interactieve media in Amsterdam.</p>
             <img class="logo" src="images.art/cmd_logo.png" alt="">
             <nav>
-                <ul class="nav">
+                <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Opleiding</a></li>
                     <li><a href="#">Onderwijsprogramma</a></li>
@@ -38,8 +38,8 @@
             <article>
 
                 <header>
-                    <h1>Opleiding</h1>
-                    <h2>CMD Amsterdam</h2>
+                    <h1>Opleiding - CMD Amsterdam</h1>
+                    <!--<h2>CMD Amsterdam</h2>-->
                     <p>De opleiding <span lang="en">Communication &amp; Multimedia Design</span> (CMD) Amsterdam leert studenten alles over het ontwerpen van online interactieve media. Dit betekent het begrijpen, bedenken en maken van interactieve media zoals websites, mobiele applicaties en interactieve televisie. Bij het ontwerpen van interactieve media staat de mens centraal. Niet alleen als eindgebruiker van een toepassing maar ook in de context van zijn leefomgeving. Studenten doen toegepast onderzoek en leren hun ontwerpen te testen op usability, gebruikersbehoefte en meetbare eindresultaten. Ze leren werken in multidisciplinaire projectteams aan opdrachten voor echte projectpartners.</p>
                     <p>De <a href="#opbouw" title="opbouw studieprogramma">vakken</a> gaan over interactie &amp; strategie, -design, -techniek en -cultuur. In de vakken leren studenten te denken en te handelen als een ontwerper. Hiervoor leren ze naast ‘ontwerpen’ ook ‘maken’, ‘onderzoeken’, ‘projectmanagen’ en ‘adviseren’. Studenten kunnen met behulp van keuzevakken, stages en minoren zelf richting geven aan hun opleiding. Na hun afstuderen komen studenten te werken in de creatieve industrie, gericht op de sector ‘nieuwe media’. Het werkveld waarin de interactieve media ontwerper zich begeeft is sterk in ontwikkeling. De opleiding houdt hier met een flexibel curriculum rekening mee en door met (keuze)vakken en projecten in te springen op nieuwe ontwikkelingen.</p>
                 </header>
@@ -53,8 +53,8 @@
 
                 <picture>
                     <source media="(min-width: 76em)" srcset="images.art/picture_fed_1280.png" >
-                    <source media="(min-width: 58em)" srcset="images.art/picture_fed_800.png" >
-                    <img src="images.art/picture_fed_480.png" alt="h1" >
+                    <source media="(min-width: 57em)" srcset="images.art/picture_fed_800.png" >
+                    <img class="picture" src="images.art/picture_fed_480.png" alt="h1" >
                 </picture>
 
                 <section>
@@ -93,9 +93,9 @@
         </main>
 
         <!-- 5 related articles -->
-        <section class="related">
+        <section class="meer">
 
-            <h2 class="meer">Meer lezen?</h2>
+            <h2>Meer lezen?</h2>
 
             <article>
                 <header>
