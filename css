@@ -722,3 +722,214 @@ video {
      }
 
  }
+
+/*--------------------------------------------------------------*/
+/*Bij uitzoomen*/
+ @media only screen and (min-width: 120em) {
+    nav {
+        width: 100%;
+    }
+
+    nav a {
+        border: 1px solid black;
+        margin-left: 1.3em;
+        margin-right: 1.3em;
+        margin-top: 1em;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+        border-radius: .2em;
+        padding-left: 2em;
+        padding-right: 2em;
+        padding-top: .5em;
+        padding-bottom: .5em;
+    }
+
+    nav ul {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        display: flex;
+        flex-direction: row;
+    }
+
+    nav > ul > li {
+        justify-content: space-around;
+    }
+
+    a {
+        color: black;
+    }
+
+
+    .inleiding {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inleiding form {
+        display: flex;
+        order: 1;
+        align-self: flex-end;
+    }
+
+   .inleiding h1 {
+        order: 2;
+        margin: 0 auto;
+    }
+
+    .inleiding p {
+        order: 3;
+        margin: 0 auto;
+    }
+
+    .inleiding img {
+        order: 4;
+        padding-left: 3em;
+    }
+
+    .inleiding nav {
+        order: 5;
+    }
+
+    .inleiding {
+        padding-bottom: 1em;
+    }
+
+    h1 {
+        font-size: 2em;
+        line-height: 1.5em;
+    }
+
+    main h1:first-of-type {
+        font-size: 1.75em;
+        line-height: 1.25em;
+    }
+
+    h2 {
+        font-size: 1.75em;
+        line-height: 1.25em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+        line-height: 1.25em;
+    }
+
+    h4 {
+        font-size: 1.25em;
+        line-height: 1.22222222em;
+    }
+
+    .logo {
+        width: 50%;
+    }
+
+    .beroep {
+        float: left;
+        width: 90%;
+        max-width: 30em;
+        padding-bottom: .5em;
+        padding-right: 1em;
+    }
+
+    body {
+        line-height: 1.375em;
+        max-width: 120em;
+        margin: 0 auto;
+    }
+
+    main {
+        display: flex;
+        flex-flow: column;
+        order: 2;
+        flex: 2 0px;
+        margin: 0;
+        background-color: #FFE993;
+        padding-left: 2em;
+        padding-right: 2em;
+        padding-bottom: 2em;
+        padding-top: 1em;
+    }
+
+    main article {
+        max-width: 42em;
+        margin: 0 auto;
+    }
+
+
+    aside {
+        order: 1;
+        max-width: 25em;
+        margin: 0;
+        padding: 1em;
+        background-color: #F2F2F3;
+    }
+
+     .related {
+         display: flex;
+         flex-direction: column;
+         order: 3;
+         flex: 2 0px;
+         max-width: 30em;
+         margin: 0;
+         background-color: #EFBF02;
+         padding: 1em;
+
+     }
+
+     .meer {
+         display: flex;
+         flex-direction: column;
+         order: 3;
+         flex: 2 0px;
+         max-width: 30em;
+         margin: 0;
+         background-color: #EFBF02;
+         padding: 1em;
+     }
+
+     .footer {
+         display: flex;
+         flex-direction: row;
+         order: 4;
+         padding-left: 1em;
+         padding-right: 1em;
+         margin: 0;
+         text-align: center;
+         background-color: lightblue;
+     }
+
+     .footer h2 {
+         font-size: 1.75em;
+     }
+
+     .footer section {
+         margin-left: 1em;
+         margin-right: 1em;
+     }
+
+     #contact {
+         order: 2;
+     }
+
+     #about {
+         order: 3;
+         max-width: 40em;
+     }
+
+     #credits {
+         order: 5;
+     }
+
+     #feedback {
+         order: 6;
+     }
+
+     #search {
+         order: 1;
+     }
+
+     #sitemap {
+         order: 4;
+     }
+
+ }
+
