@@ -14,7 +14,7 @@
             <p>Communication and Multimedia Design is een ontwerpopleiding voor interactieve media in Amsterdam.</p>
             <img class="logo" src="images.form/cmd_logo.png" alt="">
             <nav>
-                <ul class="nav">
+                <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Opleiding</a></li>
                     <li><a href="#">Onderwijsprogramma</a></li>
@@ -34,7 +34,7 @@
 
         <!-- Main article - Contact formulier  -->
         <main>
-
+            <article>
             <h1>Aanmelden</h1>
             <p>Bent u geïnteresseerd in samenwerken met CMD Amsterdam? Dat kan! Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook lopen de studenten stage, in het tweede en afstudeerjaar.</p>
             <p>CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad Amsterdam.</p>
@@ -42,8 +42,8 @@
 
             <picture>
                 <source media="(min-width: 76em)" srcset="images.form/picture_fed_1280.png" >
-                <source media="(min-width: 58em)" srcset="images.form/picture_fed_800.png" >
-                <img src="images.form/picture_fed_480.png" alt="h1" >
+                <source media="(min-width: 57em)" srcset="images.form/picture_fed_800.png" >
+                <img class="picture" src="images.form/picture_fed_480.png" alt="h1" >
             </picture>
             <form method="post" action="Formulierpagina.html">
 
@@ -189,13 +189,13 @@
                 <input type="submit" value="Aanmelden">
 
             </form>
-
+            </article>
         </main>
 
         <!-- 3 related projects - In the spotlight -->
         <section class="related">
 
-            <h2 class="meer">Voorbeeld projecten van studenten</h2>
+            <h2>Voorbeeld projecten van studenten</h2>
 
             <article>
                 <header>
@@ -513,7 +513,6 @@
                 <p>© 2015 Hogeschool van Amsterdam - Domein Digitale Media en Creatieve Industrie - CMD Amsterdam</p>
                 <p id="feedback"><a href="#">Geef ons feedback</a></p>
             </section>
-
         </footer>
         <script type="text/javascript" src="form.js"></script>
     </body>
